@@ -64,11 +64,17 @@ Recargamos la página, pero ahora con el dominio correspondiente, y los botones 
 ![Página Web - Contacto](assets/web-contact.png)
 
 Vemos cómo se envian los datos y a que endpoint cuando iniciamos sesión. Probamos con el usuario **mariana** y la contraseña **admin**.
+
 ![Web - Login](assets/web-login.png)
-Vemos con las herramientas de desarrollador, presionando F12 en el navegador, en la pestaña de **Network**, en el apartado de **Headers** que la solicitud es de tipo POST y el endpoint al que apuntamos es http://www.gatekeeperhr/lab/login.php
+
+Vemos con las herramientas de desarrollador, presionando F12 en el navegador, en la pestaña de **Network**, en el apartado de **Headers**, que la solicitud es de tipo POST y el endpoint al que apuntamos es http://www.gatekeeperhr/lab/login.php
+
 ![Request - Header](assets/request-header.png)
+
 Ahora nos movemos al apartado de Request, y vemos que el cuerpo que se envía al endpoint está en formato JSON y tiene las propiedades de **username** y **password**.
+
 ![Request - Body](assets/request-body.png)
+
 Con esta información ya podemos intentar un **ataque de diccionario** para obtener la contraseña de **mariana** (si es que el usuario existe, claro). Usaremos **wfuzz** en esta ocasión.
 
 ```shell
@@ -227,7 +233,7 @@ root@34e0296f5c5d:/home/valentina# whoami
 root
 ```
 
-Finalmente, obtenemos la flag.
+Finalmente, obtenemos la flag. 😈
 
 ```shell
 root@34e0296f5c5d:~# cat /root/fl4g.txt 
@@ -253,6 +259,6 @@ root@34e0296f5c5d:~# cat /root/fl4g.txt
    `'   '  `  _|  '  `'  `' '  
              '                 
 
-Instagram: @purpl3_mag1ck  
+Instagram: @purpl3_mag1ck
 TikTok: @purple_mag1ck
 ```
