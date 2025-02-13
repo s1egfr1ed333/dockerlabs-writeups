@@ -1,9 +1,6 @@
 # Máquina: Internship
 
 Dificultad -> Fácil
-
-Enlace a la máquina -> 
-
 ___
 
 ## Reconocimiento
