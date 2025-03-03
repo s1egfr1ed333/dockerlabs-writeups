@@ -256,6 +256,6 @@ root@34e0296f5c5d:~# cat /root/fl4g.txt
    `'   '  `  _|  '  `'  `' '  
              '                 
 
-Instagram:[ @purpl3_mag1ck](https://www.instagram.com/s1egfr1ed333/)
-TikTok: [@purple_mag1ck](https://www.tiktok.com/@_s1egfr1ed)
+Instagram: https://www.instagram.com/s1egfr1ed333/
+TikTok: https://www.tiktok.com/@_s1egfr1ed
 ```
